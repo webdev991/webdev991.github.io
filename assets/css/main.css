@@ -180,7 +180,13 @@ input:focus{
 
 }
 
-
+@media only screen and (max-width: 991px) {
+    .c-1,
+    .c-2,
+    .c-3{
+        padding-top: 2rem !important;
+    }
+ }
 
 
 .test{
@@ -195,7 +201,7 @@ input:focus{
 }
 
 .card-title{
-    font-size: 2rem;
+    font-size: 1.5rem;
     color: #dae2e4 !important;
     font-family: 'Montserrat', sans-serif !important;
 }
@@ -212,7 +218,7 @@ input:focus{
     left: 0;
     top: 0;
     width: 80%;
-    height: 15px;
+    height: 10px;
 }
 
 
@@ -223,7 +229,7 @@ input:focus{
     z-index: 100;
     top  : 0;
     width  : 10px;
-    height   : 80%;  /* or 100px */
+    height   : 60%;  /* or 100px */
     background: #bda472;
   }
 
@@ -233,6 +239,10 @@ input:focus{
 
 .c-2{
     padding-top: 8rem;
+}
+
+.c-3{
+    padding-top: 12rem;
 }
 
 hr{
