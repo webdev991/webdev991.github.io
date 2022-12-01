@@ -1,0 +1,9 @@
+gradient-blue: #2c73d2 & #009ce9 135 stepeni
+light-blue: #009ce9
+dark-blue: #2c73d2
+light: #f7f9fa
+white: #fff
+dark: #141719
+light-dark: #9da5ad
+font: Poppins
+container: 1420px

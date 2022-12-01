@@ -1,0 +1,1 @@
+$((function(){$(document).scroll((function(){var o=$(".navbar");o.toggleClass("solid",$(this).scrollTop()>o.height())}))}));
